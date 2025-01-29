@@ -38,7 +38,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="logo-container">
               <div className="flex items-center space-x-3">
-                <div className="relative w-10 h-10 animate-float">
+                <div>
                   <Image
                     src="/logo.jpg"
                     alt="CareerForge Logo"

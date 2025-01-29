@@ -96,11 +96,12 @@ export default function Contact() {
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-secondary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9345520877, +91 8610417075</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="text-secondary" />
-                <span>info@careerforge.com</span>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTtXwVKvnmWWnQJWdwvClPXPdDGDqmmnCTPLjZJrpSBPCGMVXdJdLVkBttKMsSBTCBCnGX">careerforge2024@gmail.com</a>
+
               </div>
             </div>
           </div>
