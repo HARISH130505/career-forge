@@ -37,8 +37,8 @@ export default function Testimonials() {
   }, [])
 
   return (
-    <div className="bg-white py-16">
-      <div className="container mx-auto px-4">
+    <div className="min-h-screen bg-white bg-opacity-80">
+      <div className="container mx-auto px-4 py-40">
         <h2 className="text-3xl font-bold mb-8 text-center">What Our Students Say</h2>
         <div className="relative h-64">
           {testimonials.map((testimonial, index) => (

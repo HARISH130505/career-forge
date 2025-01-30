@@ -20,14 +20,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} min-h-screen`}>
+      <body className={`${poppins.className} bg-white bg-opacity-80 min-h-screen`} style={{ backgroundImage: `url('/bg.jpeg')`, backgroundSize: 'cover' }}>
         <Navbar />
-        <div className="pt-16">
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-b from-blue-900/10 to-transparent pointer-events-none" />
             <div className="relative">{children}</div>
           </div>
-        </div>
       </body>
     </html>
   )

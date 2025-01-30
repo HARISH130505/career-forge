@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export default function About() {
   return (
-    <main className="min-h-screen py-20">
-      <div className="bg-white bg-opacity-90 shadow-lg py-12">
-        <section className="p-20">
+    <main className="min-h-screen">
+      <div className="bg-white bg-opacity-80 shadow-lg py-14">
+        <section>
           <div className="container">
             <h1 className="text-4xl font-bold mb-8 text-center">About CareerForge</h1>
             <div className="flex items-center space-x-12 p-10">
@@ -22,7 +22,7 @@ export default function About() {
               </div>
               <div className="w-1/2">
                 <Image
-                  src="/placeholder.svg"
+                  src="/cl3.jpg"
                   alt="CareerForge team"
                   width={600}
                   height={400}

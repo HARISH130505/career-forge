@@ -24,8 +24,8 @@ export default function Contact() {
   }
 
   return (
-    <main className="min-h-screen py-20">
-      <div className="bg-white bg-opacity-90 shadow-lg py-12">
+    <main className="min-h-screen bg-white bg-opacity-80 py-20">
+      <div className="py-12 px-4">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold mb-12 text-center">Contact Us</h1>
 
@@ -76,7 +76,7 @@ export default function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="bg-primary text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors"
+                  className="bg-blue-700 text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors"
                 >
                   Send Message
                 </button>
@@ -92,11 +92,11 @@ export default function Contact() {
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-secondary" />
-                <span>123 Education St, Learning City, 12345</span>
+                <span>5/9b, Srinivasa Nagar 2nd Street Annex, Koyambedu, Chennai-107</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-secondary" />
-                <span>+91 9345520877, +91 8610417075</span>
+                <span>+91 6379304297, +91 8610417075</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="text-secondary" />

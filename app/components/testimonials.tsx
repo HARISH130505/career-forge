@@ -6,23 +6,23 @@ import Image from "next/image"
 const testimonials = [
   {
     name: "Sarah Johnson",
-    role: "Web Developer",
-    quote: "CareerForge helped me transition into tech. The web development course was comprehensive and practical.",
-    image: "/placeholder.svg",
+    role: "CFA Trainee",
+    quote: "CareerForge helped me transition into a new career. The CFA course was comprehensive and practical.",
+    image: "/cl1.jpg",
   },
   {
     name: "Michael Chen",
-    role: "Data Analyst",
+    role: "IB-OPS Trainee",
     quote:
-      "The data science course at CareerForge was exactly what I needed to advance in my career. Highly recommended!",
-    image: "/placeholder.svg",
+      "The IB-OPS course at CareerForge was exactly what I needed to advance in my career. Highly recommended!",
+    image: "/cl2.jpg",
   },
   {
     name: "Emily Rodriguez",
     role: "Digital Marketer",
     quote:
       "Thanks to CareerForge, I gained the skills to excel in digital marketing. The course was engaging and up-to-date.",
-    image: "/placeholder.svg",
+    image: "/cl3.jpg",
   },
 ]
 
@@ -37,9 +37,8 @@ export default function Testimonials() {
   }, [])
 
   return (
-    <div className="bg-white py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">What Our Students Say</h2>
+      <div className="container mx-auto px-4 mt-10">
+        <h2 className="text-4xl font-bold mb-8 text-center">What Our Students Say</h2>
         <div className="relative h-64">
           {testimonials.map((testimonial, index) => (
             <div
@@ -50,11 +49,11 @@ export default function Testimonials() {
             >
               <div className="flex flex-col items-center text-center">
                 <Image
-                  src={testimonial.image || "/placeholder.svg"}
+                  src={testimonial.image}
                   alt={testimonial.name}
-                  width={80}
-                  height={80}
-                  className="rounded-full mb-4"
+                  width={600}
+                  height={600}
+                  className="rounded-3xl mb-4"
                 />
                 <p className="text-lg mb-4 italic">"{testimonial.quote}"</p>
                 <p className="font-semibold">{testimonial.name}</p>
@@ -64,6 +63,5 @@ export default function Testimonials() {
           ))}
         </div>
       </div>
-    </div>
   )
 }
