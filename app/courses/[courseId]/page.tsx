@@ -37,8 +37,9 @@ const courseContent = {
   },
 }
  
-export default function Course({ params }: { params: { courseId: string } }) {
-  const course = courseContent[params.courseId as keyof typeof courseContent]
+export default async function Course({ params }: { params: Promise<{ courseId: string }> }) {
+  const { courseId } = await params;
+  const course = courseContent[courseId as keyof typeof courseContent]
  
   if (!course) {
     notFound()
