@@ -101,7 +101,7 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="md:hidden absolute top-16 left-0 right-0 navbar-glass shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            {navItems.map((item, index) => (
+            {navItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}

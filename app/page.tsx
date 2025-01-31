@@ -1,6 +1,6 @@
-import Image from "next/image"
-import Link from "next/link"
-import { CheckCircle } from "lucide-react"
+// import Image from "next/image"
+// import Link from "next/link"
+// import { CheckCircle } from "lucide-react"
 import Testimonials from "./components/testimonials"
 
 export default function Home() {
