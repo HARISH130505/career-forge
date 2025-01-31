@@ -24,15 +24,15 @@ const courseContent = {
       "Competitive Edge: In a competitive job market, having a CFA can make you stand out to employers who value the rigor and dedication required to complete the program.",
     ],
   },
-  "cfa-at-careerforge": {
-    title: "CFA at CareerForge",
+  "ibops": {
+    title: "IB-OPS",
     icon: Users,
     content: [
-      "Structured Learning Path: We offer comprehensive study plans, detailed lecture notes, practice mock exams, and access to instructors for questions and clarifications.",
-      "Expert Guidance: Our faculty consists of reputable and experienced professionals who are well-versed in CFA exam topics and can offer in-depth guidance, answer questions, and explain core concepts thoroughly.",
-      "Motivation & Accountability: Studying for the CFA exams can be intense. Our set schedule with classes and deadlines helps keep you motivated and on track throughout your preparation.",
-      "Improved Pass Rates: CareerForge boasts high pass rates because our programs are tailored specifically to tackle the exam's challenges. Our study materials are meticulously aligned with the CFA Institute's curriculum.",
-      "Support Beyond Exams: We provide career counseling, interview preparation, and other support services that benefit you even after obtaining your CFA charter, ensuring long-term career success.",
+      "Investment Banking Operations (IB Ops) plays a crucial role in ensuring the smooth execution of financial transactions.",
+      "It handles trade settlement, risk management, regulatory compliance, and reconciliation of trades.",
+      "This division ensures that all trades are properly recorded and settled, minimizing financial and operational risks.",
+      "IB Ops also works closely with front-office teams to manage client accounts and streamline processes.",
+      "Automation and technology are transforming this field, improving efficiency and reducing errors.",
     ],
   },
 }

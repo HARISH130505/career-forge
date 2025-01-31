@@ -13,9 +13,9 @@ const cfaCourses = [
     description: "Explore the diverse career paths and networking possibilities for CFA charterholders",
   },
   {
-    id: "cfa-at-careerforge",
-    title: "CFA at CareerForge",
-    description: "Learn about our structured approach and expert guidance for CFA exam preparation",
+    id: "ibops",
+    title: "IB-OPS",
+    description: "As financial markets evolve, IB Ops continues to be a vital backbone of investment banking institutions",
   },
 ]
  

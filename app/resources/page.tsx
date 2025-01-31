@@ -96,7 +96,6 @@
 export default function Resources() {
   return(
     <div className="bg-white bg-opacity-80 min-h-screen flex items-center justify-center">
-          <h1 className="text-6xl text-black">Coming Soon...</h1>
     </div>
   )
 }
