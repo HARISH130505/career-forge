@@ -1,45 +1,70 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function About() {
   return (
     <main className="min-h-screen">
       <div className="bg-white bg-opacity-80 shadow-lg py-14 px-6">
         <section>
-          <div className="container max-w-6xl mx-auto px-10 sm:px-4 md:px-10">
+          <div className="container mx-auto px-4 sm:px-6 md:px-10 lg:px-12">
             <h1 className="text-4xl font-bold mb-8 text-center">About CareerForge</h1>
-            <div className="flex flex-col-reverse md:flex-row items-center space-y-6 md:space-y-0 md:space-x-12">
-              <div className="w-full md:w-1/2 text-center md:text-left">
-                <h2 className="text-2xl font-semibold my-4">Our Mission</h2>
-                <p className="mb-4 text-lg">
-                  At CareerForge, we are dedicated to shaping the future of students and professionals by providing 
-                  personalized coaching and career placement services. Our mission is to empower individuals with the 
-                  tools, knowledge, and guidance needed to navigate their career journeys with confidence.
-                  Whether you're a student taking your first steps into the professional world or a seasoned professional 
-                  seeking a new opportunity, CareerForge is here to help you succeed. Through tailored coaching, 
-                  skill-building workshops, and strategic career placements, we aim to unlock your full potential and 
-                  ensure you're well-equipped for a thriving career.
+            <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-12">
+              <div>
+                <div className="flex flex-col-reverse md:flex-row items-center md:px-6">
+                  <div className="md:w-1/2 my-6">
+                    <p className="mb-4 text-lg">
+                      Welcome to Career Forge, your trusted partner in shaping a successful career and building a
+                      brighter professional future. Officially founded in 2025, Career Forge is a premier training and
+                      career placement venture based in Koyambedu, Chennai. As a GST-registered sole proprietorship
+                      (GST number: 33BOSPP4396B1ZM), we provide personalized training programs and placement services
+                      meticulously designed to meet the ever-evolving demands of today's competitive job market. Whether
+                      you're seeking to enhance your skills, switch careers, or land your dream job, Career Forge is here
+                      to help you forge a path to success.
+                      <br />
+                      At Career Forge, we understand that every individual has unique potential. Our expert team of
+                      trainers and career consultants work closely with students to craft tailored training solutions,
+                      providing both foundational knowledge and advanced industry skills. We bridge the gap between
+                      talent and opportunity by providing strategic career placement services. Through our vast network
+                      of industry connections, we help job seekers connect with top employers and seize meaningful
+                      opportunities. At Career Forge, your career growth is our mission. We're dedicated to empowering
+                      professionals with the tools, knowledge, and opportunities they need to thrive. Let us help you
+                      forge your future!
+                    </p>
+                  </div>
+                  <div className="md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
+                    <Image
+                      src="/cl3.jpg"
+                      alt="CareerForge team working together"
+                      width={600}
+                      height={600}
+                      className="rounded-lg shadow-md object-contain"
+                    />
+                  </div>
+                </div>
+
+                <h2 className="text-2xl text-center font-semibold mt-8">Our Mission</h2>
+                <p className="my-4 text-lg md:px-6">
+                  At Career Forge, our mission is to empower individuals with the specialized knowledge and skills
+                  needed to succeed in the financial markets and investment industries. Through our expert-led coaching
+                  in the Financial Markets Operations Specialist (FMOS) and US Chartered Financial Analyst (CFA)
+                  programs, we aim to provide students with a strong foundation in both technical domain expertise and
+                  effective communication. Our commitment is to equip each student with the tools they need to thrive,
+                  offering personalized training that bridges the gap between education and career success.
                 </p>
-                <h2 className="text-2xl font-semibold mb-4">Our Vision</h2>
-                <p className="text-lg">
-                  We envision a world where every individual has the opportunity to unlock their full potential and
-                  build a rewarding career. Through innovative learning experiences and industry partnerships, we aim to
-                  be the catalyst for professional growth and success.
+
+                <h2 className="text-2xl text-center font-semibold mt-6">Our Vision</h2>
+                <p className="my-4 text-lg md:px-6">
+                  Our vision is to be a leading catalyst for transforming aspiring professionals into proficient
+                  financial market experts and highly sought-after industry leaders. We aspire to create a world where
+                  individuals are not only highly skilled but also confident in their ability to navigate the
+                  ever-evolving financial landscape, contributing meaningfully to their organizations and communities.
+                  At Career Forge, we strive to cultivate a culture of excellence, innovation, and lifelong learning,
+                  empowering the next generation of finance professionals to make an impact globally.
                 </p>
-              </div>
-              <div className="w-full md:w-1/2 flex justify-center">
-                <Image
-                  src="/cl3.jpg"
-                  alt="CareerForge team working together"
-                  width={600}
-                  height={400}
-                  className="rounded-lg shadow-md w-full h-auto"
-                  priority
-                />
               </div>
             </div>
           </div>
         </section>
       </div>
     </main>
-  )
+  );
 }
