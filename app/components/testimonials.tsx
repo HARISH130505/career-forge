@@ -5,23 +5,23 @@ import Image from "next/image"
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Ramkrishnan L",
     role: "CFA Trainee",
     quote: "CareerForge helped me transition into a new career. The CFA course was comprehensive and practical.",
     image: "/cl1.jpg",
   },
   {
-    name: "Michael Chen",
+    name: "Gajalakshmi",
     role: "IB-OPS Trainee",
     quote:
       "The IB-OPS course at CareerForge was exactly what I needed to advance in my career. Highly recommended!",
     image: "/cl2.jpg",
   },
   {
-    name: "Emily Rodriguez",
-    role: "Digital Marketer",
+    name: "Siddharth",
+    role: "CFA Trainee",
     quote:
-      "Thanks to CareerForge, I gained the skills to excel in digital marketing. The course was engaging and up-to-date.",
+      "CareerForge Institute provided exceptional coaching for my CFA, ensuring a first-class learning experience with expert guidance and unwavering support.",
     image: "/cl3.jpg",
   },
 ]

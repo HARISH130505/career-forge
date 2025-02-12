@@ -6,7 +6,7 @@ import Testimonials from "./components/testimonials"
 export default function Home() {
 
   return (
-    <main className="min-h-screen bg-white bg-opacity-80 shadow-lg py-16">
+    <main className="min-h-screen shadow-lg py-16">
         <Testimonials />
         {/* <section className="py-16">
           <div className="container mx-auto px-4">

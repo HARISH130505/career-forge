@@ -21,7 +21,7 @@ const cfaCourses = [
  
 export default function Courses() {
   return (
-    <main className="min-h-screen py-20 bg-white bg-opacity-60">
+    <main className="min-h-screen py-20">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl font-extrabold mb-2 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
           CFA Program

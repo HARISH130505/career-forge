@@ -49,7 +49,7 @@
 
 export default function Events(){
   return(
-    <div className="bg-white bg-opacity-80 min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center">
     </div>
   )
 }

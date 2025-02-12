@@ -24,7 +24,7 @@ export default function Contact() {
   }
 
   return (
-    <main className="min-h-screen bg-white bg-opacity-80 py-20">
+    <main className="min-h-screen py-20">
       <div className="py-12 px-4">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold mb-12 text-center">Contact Us</h1>

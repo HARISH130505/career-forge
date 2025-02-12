@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <main className="min-h-screen">
-      <div className="bg-white bg-opacity-80 shadow-lg py-14 px-6">
+      <div className="shadow-lg py-14 px-6">
         <section>
           <div className="container mx-auto px-4 sm:px-6 md:px-10 lg:px-12">
             <h1 className="text-4xl font-bold mb-8 text-center">About CareerForge</h1>

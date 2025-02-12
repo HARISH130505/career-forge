@@ -48,7 +48,7 @@ export default async function Course({ params }: { params: Promise<{ courseId: s
   const Icon = course.icon
  
   return (
-    <main className="min-h-screen py-20 bg-white bg-opacity-60">
+    <main className="min-h-screen py-20">
       <div className="container mx-auto px-4">
         <Link
           href="/courses"
