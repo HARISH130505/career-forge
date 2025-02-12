@@ -1,10 +1,5 @@
 "use client"
-
-import { useState, useEffect } from "react"
 import Image from "next/image"
-// Mr. Subramanian has been an excellent trainer and a great friend who has helped me in various facets of my career, and has recently helped me get placed in CRISIL as a research analyst. He provided me with excellent training and also encouraged me to think critically, which I believe is an essential quality for anyone wanting to succeed in their career. I am grateful to have learned from him and look forward to applying his teachings in all my endeavors.
-
-// -Aravind JV
 
 const testimonials = [
   {
@@ -51,41 +46,40 @@ const testimonials = [
 ]
 
 export default function Testimonials() {
-
   return (
-    <div className="min-h-screen">
-      <div className="container mx-auto px-4 py-40">
+    <div className="min-h-screen bg-gray-100"> 
+      <div className="container mx-auto px-4 py-20 md:py-40">
         <h2 className="text-3xl font-bold mb-8 text-center">What Our Students Say</h2>
         <div className="flex justify-center">
-        <div className="grid grid-cols-2 gap-10">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="w-full">
-              <div className="bg-white p-4 rounded-xl grid grid-cols-1 w-[500px] h-[500px] ">
-              <div className="flex space-x-4">
-                <Image
-                  src={testimonial.image || "/placeholder.svg"}
-                  alt={testimonial.name}
-                  width={120}
-                  height={120}
-                  className="rounded-full mb-4"
-                />
-                <div className="px-4 py-14">
-                  <p className="font-semibold">{testimonial.name}</p>
-                  <p className="text-gray-600">{testimonial.role}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 md:p-10 lg:grid-cols-2 gap-6  md:gap-10"> {/* Improved grid responsiveness */}
+            {testimonials.map((testimonial, index) => (
+              <div
+                key={index}
+                className="w-full"
+              >
+                <div className="bg-white p-6 rounded-xl shadow-md h-full flex flex-col"> {/* Added shadow and flex for better card appearance */}
+                  <div className="flex items-center space-x-4 mb-4"> {/* Aligned image and text vertically */}
+                    <Image
+                      src={testimonial.image || "/placeholder.svg"}
+                      alt={testimonial.name}
+                      width={80}  
+                      height={80} /* Adjusted image size */
+                      className="rounded-full"
+                    />
+                    <div>
+                      <p className="font-semibold text-lg">{testimonial.name}</p> {/* Increased font size */}
+                      <p className="text-gray-600 text-sm">{testimonial.role}</p> {/* Decreased font size for role */}
+                    </div>
+                  </div>
+                  <div className="flex-grow"> {/* Makes quote take up available space */}
+                    <p className="text-lg mb-4 italic leading-relaxed">"{testimonial.quote}"</p> {/* Improved readability */}
+                  </div>
                 </div>
               </div>
-              <p className="text-lg mb-4 italic">"{testimonial.quote}"</p>
-            </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
-// export default function Testimonials() {
-//   return(<div className="bg-white bg-opacity-80 min-h-screen"></div>)
-// }
