@@ -47,7 +47,7 @@ export default function Testimonials() {
             }`}
           >
             <div className="flex flex-col items-center text-center">
-              <div className="relative w-32 h-32 sm:w-60 sm:h-60 md:w-72 md:h-60 lg:w-96 lg:h-72 mb-4">
+              <div className="relative w-52 h-44 sm:w-60 sm:h-60 md:w-72 md:h-60 lg:w-96 lg:h-72 mb-4">
                 <Image
                   src={testimonial.image || "/placeholder.svg"}
                   alt={testimonial.name}
