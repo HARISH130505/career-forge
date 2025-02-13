@@ -13,8 +13,7 @@ const testimonials = [
   {
     name: "Gajalakshmi",
     role: "IB-OPS Trainee",
-    quote:
-      "The IB-OPS course at CareerForge was exactly what I needed to advance in my career. Highly recommended!",
+    quote: "The IB-OPS course at CareerForge was exactly what I needed to advance in my career. Highly recommended!",
     image: "/cl2.jpg",
   },
   {
@@ -37,31 +36,34 @@ export default function Testimonials() {
   }, [])
 
   return (
-      <div className="container mx-auto px-4 mt-10">
-        <h2 className="text-4xl font-bold mb-8 text-center">What Our Students Say</h2>
-        <div className="relative h-64">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className={`absolute top-0 left-0 w-full transition-opacity duration-500 ${
-                index === currentIndex ? "opacity-100" : "opacity-0"
-              }`}
-            >
-              <div className="flex flex-col items-center text-center">
+    <div className="container mx-auto px-4 mt-10">
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">What Our Students Say</h2>
+      <div className="relative h-[28rem] sm:h-[24rem] md:h-[26rem] lg:h-[28rem]">
+        {testimonials.map((testimonial, index) => (
+          <div
+            key={index}
+            className={`absolute top-0 left-0 w-full transition-opacity duration-500 ${
+              index === currentIndex ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-96 lg:h-72 mb-4">
                 <Image
-                  src={testimonial.image}
+                  src={testimonial.image || "/placeholder.svg"}
                   alt={testimonial.name}
-                  width={600}
-                  height={600}
-                  className="rounded-3xl mb-4"
+                  fill
+                  className="rounded-3xl object-conatin"
                 />
-                <p className="text-lg mb-4 italic">"{testimonial.quote}"</p>
-                <p className="font-semibold">{testimonial.name}</p>
-                <p className="text-gray-600">{testimonial.role}</p>
               </div>
+              <p className="text-base sm:text-lg md:text-xl mb-4 italic max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
+                "{testimonial.quote}"
+              </p>
+              <p className="font-semibold">{testimonial.name}</p>
+              <p className="text-gray-600">{testimonial.role}</p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
+    </div>
   )
 }
