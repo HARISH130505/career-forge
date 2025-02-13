@@ -43,6 +43,14 @@ const testimonials = [
      "Thanks to CareerForge, I'm now working in my dream role. Their student-oriented approach, combined with excellent interview preparation and training, made all the difference. CareerForge truly understands what students seek in a job and provides tailored mentorship throughout the process. A special thanks to Subramanian Sir for his unwavering support from the very beginning.",
     image: "/Manikandan.jpg",
   },
+  {
+    name: "Monisha Shri",
+    role: "Virtual Relationship Manager(Asst. Mgr) - ICICI Prudential Asset Management.",
+    quote:
+     "Working with Career Forge was an absolute game-changer for my job search. Subramaniam sir's guidance helped me not only refine my resume but also boosted my confidence in interviews. He personally took the time to understand my career goals and provided personalized strategies that truly resonated with me. With his support, I was able to land a opportunity that aligns perfectly with my skills and ambitions. I highly recommend their services to anyone looking to navigate and elevate their career journey.",
+    image: "/Monisha.jpg",
+  },
+
 ]
 
 export default function Testimonials() {
