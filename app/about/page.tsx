@@ -14,11 +14,10 @@ export default function About() {
                     <p className="mb-4 text-lg">
                       Welcome to Career Forge, your trusted partner in shaping a successful career and building a
                       brighter professional future. Officially founded in 2025, Career Forge is a premier training and
-                      career placement venture based in Koyambedu, Chennai. As a GST-registered sole proprietorship
-                      (GST number: 33BOSPP4396B1ZM), we provide personalized training programs and placement services
-                      meticulously designed to meet the ever-evolving demands of today's competitive job market. Whether
-                      you're seeking to enhance your skills, switch careers, or land your dream job, Career Forge is here
-                      to help you forge a path to success.
+                      career placement venture based in Koyambedu, Chennai. As a GST-registered sole proprietorship,
+                      we provide personalized training programs and placement services meticulously designed to meet the 
+                      ever-evolving demands of today's competitive job market. Whether you're seeking to enhance your skills, 
+                      switch careers, or land your dream job, Career Forge is here to help you forge a path to success.
                       <br />
                       At Career Forge, we understand that every individual has unique potential. Our expert team of
                       trainers and career consultants work closely with students to craft tailored training solutions,
