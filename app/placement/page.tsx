@@ -45,10 +45,17 @@ const testimonials = [
   },
   {
     name: "Monisha Shri",
-    role: "Virtual Relationship Manager(Asst. Mgr) - ICICI Prudential Asset Management.",
+    role: "Virtual Relationship Manager(Asst. Mgr) - ICICI Prudential Asset Management.",
     quote:
      "Working with Career Forge was an absolute game-changer for my job search. Subramaniam sir's guidance helped me not only refine my resume but also boosted my confidence in interviews. He personally took the time to understand my career goals and provided personalized strategies that truly resonated with me. With his support, I was able to land a opportunity that aligns perfectly with my skills and ambitions. I highly recommend their services to anyone looking to navigate and elevate their career journey.",
     image: "/Monisha.jpg",
+  },
+  {
+    name: "Baalajee R K",
+    role: "Placed at Barclays Bank as Analyst - Treasury PC",
+    quote:
+     "I am a qualified CA with 4 years of experience in IT and Real Estate. After discussing my interest in investment banking with Subramanian Sir, he encouraged me to pursue the CFA course, which I registered for. During my CFA journey, my passion for investment banking grew, and I sought Subramanian Sir's help again for placement in the sector. He identified my strengths, provided focused training, and helped me gain a solid understanding of technical concepts, which ultimately led to my successful placement at Barclays. I sincerely thank him for his time and efforts.",
+    image: "/Baalajee.jpg",
   },
 
 ]
