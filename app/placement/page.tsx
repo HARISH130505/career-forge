@@ -66,28 +66,28 @@ export default function Testimonials() {
       <div className="container mx-auto px-4 py-20 md:py-40">
         <h2 className="text-3xl font-bold mb-8 text-center">What Our Students Say</h2>
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 md:p-10 lg:grid-cols-2 gap-6  md:gap-10"> {/* Improved grid responsiveness */}
+          <div className="grid grid-cols-1 md:grid-cols-2 md:p-10 lg:grid-cols-2 gap-6  md:gap-10">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
                 className="w-full"
               >
-                <div className="bg-white p-6 rounded-xl shadow-md h-full flex flex-col"> {/* Added shadow and flex for better card appearance */}
-                  <div className="flex items-center space-x-4 mb-4"> {/* Aligned image and text vertically */}
+                <div className="bg-white p-6 rounded-xl shadow-md h-full flex flex-col">
+                  <div className="flex items-center space-x-4 mb-4">
                     <Image
                       src={testimonial.image || "/placeholder.svg"}
                       alt={testimonial.name}
                       width={80}  
-                      height={80} /* Adjusted image size */
+                      height={80}
                       className="rounded-full"
                     />
                     <div>
-                      <p className="font-semibold text-lg">{testimonial.name}</p> {/* Increased font size */}
-                      <p className="text-gray-600 text-sm">{testimonial.role}</p> {/* Decreased font size for role */}
+                      <p className="font-semibold text-lg">{testimonial.name}</p>
+                      <p className="text-gray-600 text-sm">{testimonial.role}</p>
                     </div>
                   </div>
-                  <div className="flex-grow"> {/* Makes quote take up available space */}
-                    <p className="text-lg mb-4 italic leading-relaxed">"{testimonial.quote}"</p> {/* Improved readability */}
+                  <div className="flex-grow">
+                    <p className="text-lg mb-4 italic leading-relaxed">"{testimonial.quote}"</p>
                   </div>
                 </div>
               </div>
