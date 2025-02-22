@@ -62,7 +62,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <div className="min-h-screen bg-gray-100"> 
+    <div className="min-h-screen"> 
       <div className="container mx-auto px-4 py-20 md:py-40">
         <h2 className="text-3xl font-bold mb-8 text-center">What Our Students Say</h2>
         <div className="flex justify-center">
