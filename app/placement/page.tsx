@@ -57,6 +57,12 @@ const testimonials = [
      "I am a qualified CA with 4 years of experience in IT and Real Estate. After discussing my interest in investment banking with Subramanian Sir, he encouraged me to pursue the CFA course, which I registered for. During my CFA journey, my passion for investment banking grew, and I sought Subramanian Sir's help again for placement in the sector. He identified my strengths, provided focused training, and helped me gain a solid understanding of technical concepts, which ultimately led to my successful placement at Barclays. I sincerely thank him for his time and efforts.",
     image: "/Baalajee.jpg",
   },
+  {
+    name: "Vengatesh A",
+    role: "Barclays Bank Analyst - Internal Reporting",
+    quote: "Everyone knows that securing a good job in today’s competitive environment is quite challenging. Even with all the necessary knowledge & skills, many still struggle to land the right opportunity. That’s exactly where Mr. Subramanian made a difference. He is truly a gem among the crowd, someone who pursues placement training out of passion. He not only helped secure a job but also ensured it was in a company that was specifically desired. The package offered was beyond expectations—something that would have typically taken 3 to 5 years to achieve.",
+    image: "/Vengatesh.jpg",
+  },
 
 ]
 
