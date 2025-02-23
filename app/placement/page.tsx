@@ -60,7 +60,7 @@ const testimonials = [
   {
     name: "Vengatesh A",
     role: "Barclays Bank Analyst - Internal Reporting",
-    quote: "Everyone knows that securing a good job in today’s competitive environment is quite challenging. Even with all the necessary knowledge & skills, many still struggle to land the right opportunity. That’s exactly where Mr. Subramanian made a difference. He is truly a gem among the crowd, someone who pursues placement training out of passion. He not only helped secure a job but also ensured it was in a company that was specifically desired. The package offered was beyond expectations (13 LPA) — something that would have typically taken 3 to 5 years to achieve.",
+    quote: "Everyone knows that securing a good job in today’s competitive environment is quite challenging. Even with all the necessary knowledge & skills, many still struggle to land the right opportunity. That’s exactly where Mr. Subramanian made a difference. He is truly a gem among the crowd, someone who pursues placement training out of passion. He not only helped secure a job but also ensured it was in a company that was specifically desired. The package offered was beyond expectations — something that would have typically taken 3 to 5 years to achieve.",
     image: "/Vengatesh.jpg",
   },
 
