@@ -92,7 +92,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-secondary" />
-                <span>5/9b, Srinivasa Nagar 2nd Street Annex, Koyambedu, Chennai-107</span>
+                <span>64/1, SP Kovil 2nd Street, Thiruvottriyur, Chennai - 600019</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-secondary" />
